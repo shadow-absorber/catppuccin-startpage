@@ -11,6 +11,19 @@ const default_config = {
     format: "h:i p",
     iconColor: palette.maroon,
   },
+  search: {
+    engines: {
+      g: ['https://google.com/search?q=', 'Google'],
+      i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
+      d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
+      y: ['https://youtube.com/results?search_query=', 'Youtube'],
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
+    }
+  },
+  keybindings: {
+    "t": 'todo-list',
+    "s": 'search-bar'
+  },
   disabled: [],
   fastlink: "https://app.raindrop.io",
   openLastVisitedTab: true,
