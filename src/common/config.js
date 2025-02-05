@@ -8,6 +8,12 @@ class Config {
     clock: {
       format: "h:i p",
     },
+    search: {
+      engines: {
+        g: ['https://google.com/search?q=', 'Google'],
+        y: ['https://youtube.com/results?search_query=', 'Youtube'],
+      }
+    },
     disabled: [],
     openLastVisitedTab: false,
     tabs: [],
