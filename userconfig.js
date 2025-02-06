@@ -207,27 +207,35 @@ const default_config = {
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
-          name: "social media",
+                name: 'tech',
+      background_url: 'src/img/banners/bg-3.gif',
+      categories: [
+        {
+          name: 'subreddits',
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
+              name: 'r/startpages/',
+              url: 'https://www.reddit.com/r/startpages/'
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
+              name: 'r/unixporn',
+              url: 'https://www.reddit.com/r/unixporn/'
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
+              name: 'r/firefoxcss',
+              url: 'https://www.reddit.com/r/firefoxcss/'
             },
-          ],
+            {
+              name: 'r/mechkbds/',
+              url: 'https://www.reddit.com/r/MechanicalKeyboards/',
+              icon: 'keyboard',
+              icon_color: '#a57685'
+            },
+            {
+              name: 'r/programming',
+              url: 'https://www.reddit.com/r/programming/'
+            }
+          ]
         },
         {
           name: "gaming",
