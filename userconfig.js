@@ -207,10 +207,6 @@ const default_config = {
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
-                name: 'tech',
-      background_url: 'src/img/banners/bg-3.gif',
-      categories: [
-        {
           name: 'subreddits',
           links: [
             {
