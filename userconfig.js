@@ -69,10 +69,6 @@ const default_config = {
             name: '/lounge/',
             url: 'https://sushigirl.us/lounge/catalog.html'
           },
-          {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
-          }
         ]
       },
       {
@@ -82,23 +78,6 @@ const default_config = {
             name: '/g/',
             url: 'https://4chan.org/g/',
           },
-          {
-            name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
-          },
-          {
-            name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
-          },
-          {
-            name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
-          },
-          {
-            name: '/prog/',
-            url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
-          }
         ]
       }
       ]
@@ -123,6 +102,7 @@ const default_config = {
             {
               url: 'https://r-a-d.io/',
               icon: 'radio'
+              icon_color: palette.blue,
             },
             {
               name: "musicForProgramming();",
@@ -136,14 +116,26 @@ const default_config = {
           name: 'music boards',
           links: [
             {
-              name: '/music/',
-              url: 'https://lainchan.org/music/',
-              icon: 'disc'
+              name: '/mu/',
+              url: 'https://boards.4chan.org/mu/',
+            },
+          ],
+          name: 'music buy',
+          links: [
+            {
+              name: 'bandcamp',
+              url: 'https://bandcamp.com/',
+              icon: 'brand-bandcamp',
+              icon_color: palette.blue,
             },
             {
-              name: '/mu/',
-              url: 'https://boards.4channel.org/mu/',
-            }
+              name: 'qobuz',
+              url: 'https://www.qobuz.com/us-en/shop'
+            },
+            {
+              name: 'beatport',
+              url: 'https://www.beatport.com/'
+            },
           ]
         }
       ]
