@@ -101,7 +101,7 @@ const default_config = {
             },
             {
               url: 'https://r-a-d.io/',
-              icon: 'radio'
+              icon: 'radio',
               icon_color: palette.blue,
             },
             {
