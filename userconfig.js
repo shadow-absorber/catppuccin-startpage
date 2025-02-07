@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
      {
       name: 'boards',
-      background_url: 'src/img/banners/bg-1.gif',
+      background_url: 'src/img/banners/cbg-13.gif',
       categories: [{
         name: 'fun',
         links: [
@@ -42,7 +42,7 @@ const default_config = {
             name: '/out/',
             url: 'https://4chan.org/out',
             icon: 'leaf',
-            icon_color: '#64876d'
+            icon_color: palette.green,
           },
           {
             name: '/lit/',
@@ -53,7 +53,7 @@ const default_config = {
             name: '/v/',
             url: 'https://4chan.org/v/',
             icon: 'device-gamepad',
-            icon_color: '#8b647b'
+            icon_color: palette.maroon,
           },
           {
             name: '/p/',
@@ -103,94 +103,52 @@ const default_config = {
       }
       ]
     },
-    {
-      name: "dev",
-      background_url: "src/img/banners/cbg-07.gif",
+        {
+      name: 'music',
+      background_url: 'src/img/banners/bg-2.gif',
       categories: [
         {
-          name: "development",
+          name: 'music services',
           links: [
             {
-              name: "github",
-              url: "https://github.com",
-              icon: "brand-github",
-              icon_color: palette.green,
-            },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              url: 'https://soundcloud.com/',
+              icon: 'brand-soundcloud',
               icon_color: palette.peach,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              url: 'https://youtu.be/',
+              icon: 'brand-youtube',
               icon_color: palette.red,
             },
-          ],
+            {
+              url: 'https://r-a-d.io/',
+              icon: 'radio'
+            },
+            {
+              name: "musicForProgramming();",
+              url: "https://musicforprogramming.net",
+              icon: "binary-tree",
+              icon_color: palette.peach,
+            },
+          ]
         },
         {
-          name: "challenges",
+          name: 'music boards',
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.green,
+              name: '/music/',
+              url: 'https://lainchan.org/music/',
+              icon: 'disc'
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-      ],
+              name: '/mu/',
+              url: 'https://boards.4channel.org/mu/',
+            }
+          ]
+        }
+      ]
     },
-    {
+   {
       name: "chi ll",
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
