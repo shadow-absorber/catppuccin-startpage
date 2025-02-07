@@ -14,7 +14,6 @@ const default_config = {
   search: {
     engines: {
       g: ['https://google.com/search?q=', 'Google'],
-      i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
@@ -25,7 +24,7 @@ const default_config = {
     "s": 'search-bar'
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "https://searx.ikl.lol/",
   openLastVisitedTab: true,
   tabs: [
      {
