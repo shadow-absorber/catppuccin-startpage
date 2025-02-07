@@ -105,7 +105,7 @@ const default_config = {
     },
         {
       name: 'music',
-      background_url: 'src/img/banners/bg-2.gif',
+      background_url: 'src/img/banners/cbg-14.gif',
       categories: [
         {
           name: 'music services',
