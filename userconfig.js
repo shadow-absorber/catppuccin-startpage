@@ -109,7 +109,7 @@ const default_config = {
               icon: "binary-tree",
               icon_color: palette.peach,
             },
-          ]
+          ],
         },
         {
           name: 'music boards',
