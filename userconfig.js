@@ -149,8 +149,8 @@ const default_config = {
       ]
     },
    {
-      name: "chi ll",
-      background_url: "src/img/banners/cbg-08.gif",
+      name: "tech",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
           name: 'subreddits',
@@ -183,8 +183,8 @@ const default_config = {
           name: "gaming",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
+              name: "GOG",
+              url: "https://www.gog.com",
               icon: "device-gamepad",
               icon_color: palette.green,
             },
@@ -195,16 +195,10 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              name: "itch.io",
+              url: "https://itch.io",
+              icon: "brand-itch",
               icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
