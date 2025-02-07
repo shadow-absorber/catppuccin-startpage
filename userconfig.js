@@ -111,14 +111,16 @@ const default_config = {
             },
           ],
         },
-        {
-          name: 'music boards',
+      {
+        name: 'music boards',
           links: [
             {
               name: '/mu/',
               url: 'https://boards.4chan.org/mu/',
             },
           ],
+      },
+        {
           name: 'music buy',
           links: [
             {
