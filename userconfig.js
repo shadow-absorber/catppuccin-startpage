@@ -60,7 +60,7 @@ const default_config = {
           {
             name: '/p/',
             url: 'https://4chan.org/p/',
-            icon: 'camera'
+            icon: 'camera',
             icon_color: palette.rosewater,
           }
         ]
