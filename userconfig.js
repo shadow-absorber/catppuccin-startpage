@@ -13,6 +13,8 @@ const default_config = {
   },
   search: {
     engines: {
+      sx: ['https://searx.ikl.lol/search?q=', 'Searxng'],
+      st: ['https://stract.com/search?q=', 'Stract'],
       g: ['https://google.com/search?q=', 'Google'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
