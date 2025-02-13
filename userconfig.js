@@ -200,31 +200,19 @@ const default_config = {
         {
           name: "video",
           links: [
-            {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
-            },
-            {
+           {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
+              name: "twitch",
+              url: "https://www.twitch.tv",
+              icon: "brand-twitch",
+              icon_color: palette.lavender,
             },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
-            },
-          ],
+         ],
         },
       ],
     },
@@ -235,4 +223,4 @@ const CONFIG = new Config(default_config, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
+root.style.setProperty("--accent", palette.red);
