@@ -48,7 +48,8 @@ const default_config = {
           {
             name: '/lit/',
             url: 'https://4chan.org/lit/',
-            icon: 'book'
+            icon: 'book',
+            icon_color: palette.peach,
           },
           {
             name: '/v/',
@@ -60,6 +61,7 @@ const default_config = {
             name: '/p/',
             url: 'https://4chan.org/p/',
             icon: 'camera'
+            icon_color: palette.rosewater,
           }
         ]
       },
@@ -79,6 +81,18 @@ const default_config = {
             name: '/g/',
             url: 'https://4chan.org/g/',
           },
+          {
+            name: '/r/privacy',
+            url: 'https://www.reddit.com/r/privacy/'
+          },
+          {
+            name: 'privacy wiki',
+            url: 'https://www.reddit.com/r/privacy/wiki/index/'
+          },
+          {
+            name: 'IG wiki',
+            url: 'https://igwiki.lyci.de/'
+          }
         ]
       }
       ]
