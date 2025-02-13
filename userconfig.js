@@ -72,6 +72,23 @@ const default_config = {
             name: '/lounge/',
             url: 'https://sushigirl.us/lounge/catalog.html'
           },
+          {
+            name: '/r/wholesome',
+            url: 'https://reddit.com/r/wholesome'
+          },
+          {
+            name: '/r/UpliftingNews',
+            url: 'https://reddit.com/rUpliftingNews'
+          },
+          {
+            name: '/r/MadeMeSmile',
+            url: 'https://reddit.com/r/MadeMeSmile'
+          },
+          {
+            name: '/r/UpliftingTrends',
+            url: 'https://reddit.com/r/UpliftingTrends'
+          }
+
         ]
       },
       {
