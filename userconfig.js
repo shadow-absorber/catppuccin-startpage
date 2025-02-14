@@ -68,11 +68,7 @@ const default_config = {
       {
         name: 'Comfy',
         links: [
-          {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
-          },
-          {
+         {
             name: '/r/wholesome',
             url: 'https://reddit.com/r/wholesome'
           },
