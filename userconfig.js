@@ -41,7 +41,7 @@ const default_configuration = {
   tabs: [
      {
       name: 'boards',
-      background_url: 'src/img/banners/cbg-13.gif',
+      background_url: 'src/img/banners/banner_13.gif',
       categories: [{
         name: 'fun',
         links: [
@@ -122,7 +122,7 @@ const default_configuration = {
     },
         {
       name: 'music',
-      background_url: 'src/img/banners/cbg-14.gif',
+      background_url: 'src/img/banners/banner_14.gif',
       categories: [
         {
           name: 'music services',
@@ -182,7 +182,7 @@ const default_configuration = {
     },
    {
       name: "tech",
-      background_url: "src/img/banners/cbg-15.gif",
+      background_url: "src/img/banners/banner_15.gif",
       categories: [
         {
           name: 'subreddits',
