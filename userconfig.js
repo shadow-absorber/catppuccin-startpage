@@ -165,7 +165,6 @@ const default_configuration = {
               name: '/music/',
               url: 'https://lainchan.org/music/index.html',
             },
-
           ],
       },
         {
