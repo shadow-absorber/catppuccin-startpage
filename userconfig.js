@@ -1,5 +1,4 @@
-// latte / frappe / macchiato / mocha
-const palette = mocha;
+// latte / frappe / macchiato / mocha const palette = mocha;
 
 const default_config = {
   overrideStorage: true,
@@ -36,30 +35,30 @@ const default_config = {
         name: 'fun',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
+            url: 'https://8chan.moe/wsg/',
             name: '/wsg/'
           },
           {
             name: '/out/',
-            url: 'https://4chan.org/out',
+            url: 'https://8chan.moe/out',
             icon: 'leaf',
             icon_color: palette.green,
           },
           {
             name: '/lit/',
-            url: 'https://4chan.org/lit/',
+            url: 'https://8chan.moe/lit/',
             icon: 'book',
             icon_color: palette.peach,
           },
           {
             name: '/v/',
-            url: 'https://4chan.org/v/',
+            url: 'https://8chan.moe/v/',
             icon: 'device-gamepad',
             icon_color: palette.maroon,
           },
           {
             name: '/p/',
-            url: 'https://4chan.org/p/',
+            url: 'https://8chan.moe/p/',
             icon: 'camera',
             icon_color: palette.rosewater,
           }
@@ -92,7 +91,7 @@ const default_config = {
         links: [
           {
             name: '/g/',
-            url: 'https://4chan.org/g/',
+            url: 'https://8chan.moe/g/',
           },
           {
             name: '/r/privacy',
@@ -145,7 +144,7 @@ const default_config = {
           links: [
             {
               name: '/mu/',
-              url: 'https://boards.4chan.org/mu/',
+              url: 'https://boards.8chan.moe/mu/',
             },
           ],
       },
