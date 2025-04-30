@@ -161,6 +161,11 @@ const default_configuration = {
               name: '/mu/',
               url: 'https://8chan.moe/mu/',
             },
+            {
+              name: '/music/',
+              url: 'https://lainchan.org/music/index.html',
+            },
+
           ],
       },
         {
