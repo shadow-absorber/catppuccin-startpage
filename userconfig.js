@@ -35,30 +35,30 @@ const default_config = {
         name: 'fun',
         links: [
           {
-            url: 'https://8chan.moe/wsg/',
+            url: 'https://4chan.org/wsg/',
             name: '/wsg/'
           },
           {
             name: '/out/',
-            url: 'https://8chan.moe/out',
+            url: 'https://4chan.org/out',
             icon: 'leaf',
             icon_color: palette.green,
           },
           {
             name: '/lit/',
-            url: 'https://8chan.moe/lit/',
+            url: 'https://4chan.org/lit/',
             icon: 'book',
             icon_color: palette.peach,
           },
           {
             name: '/v/',
-            url: 'https://8chan.moe/v/',
+            url: 'https://4chan.org/v/',
             icon: 'device-gamepad',
             icon_color: palette.maroon,
           },
           {
             name: '/p/',
-            url: 'https://8chan.moe/p/',
+            url: 'https://4chan.org/p/',
             icon: 'camera',
             icon_color: palette.rosewater,
           }
@@ -91,7 +91,7 @@ const default_config = {
         links: [
           {
             name: '/g/',
-            url: 'https://8chan.moe/g/',
+            url: 'https://4chan.org/g/',
           },
           {
             name: '/r/privacy',
@@ -144,7 +144,7 @@ const default_config = {
           links: [
             {
               name: '/mu/',
-              url: 'https://boards.8chan.moe/mu/',
+              url: 'https://boards.4chan.org/mu/',
             },
           ],
       },
