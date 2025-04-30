@@ -101,8 +101,12 @@ const default_configuration = {
         name: 'Technology',
         links: [
           {
-            name: '/g/',
-            url: 'https://8chan.moe/g/',
+            name: '/t/',
+            url: 'https://8chan.moe/t/',
+          },
+          {
+            name: '/Ω/',
+            url: 'https://lainchan.org/%CE%A9/index.html',
           },
           {
             name: '/r/privacy',
@@ -155,7 +159,7 @@ const default_configuration = {
           links: [
             {
               name: '/mu/',
-              url: 'https://boards.8chan.moe/mu/',
+              url: 'https://8chan.moe/mu/',
             },
           ],
       },
