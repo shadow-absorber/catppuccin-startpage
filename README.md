@@ -21,70 +21,77 @@
   <img src="assets/preview.png"/>
 </p>
 
-## 🪴 Overview
+# 🪴 Overview
 
-A minimalistic and customizable startpage featuring the [**Catppuccin palettes**](https://catppuccin.com/palette).
-Designed for both aesthetics and functionality with seamless hosting on GitHub Pages.
-This startpage is based on the [`dawn`](https://github.com/b-coimbra/dawn), which has even more functionality.
-I've tweaked the page to match my [`dotfiles`](https://github.com/pivoshenko/dotfiles) so check them out as well.
+A minimalistic and customisable startpage featuring the [**Catppuccin palettes**](https://catppuccin.com/palette). Designed for both aesthetics and functionality, with seamless hosting on GitHub Pages. This startpage is based on [`dawn`](https://github.com/b-coimbra/dawn), which offers additional functionality. I have refined the page to match my [`dotfiles`](https://github.com/pivoshenko/dotfiles); feel free to explore them as well.
 
-### 🧠 Main principles
+## 🧠 Main Principles
 
-- Minimalism in everything
-- Consistency
-- Simplicity
-- One style
-- Reduced visual noise
+- Minimalism in all aspects
+- Consistency throughout the user interface and codebase
+- Simplicity in design and configuration
+- Unified style and reduced visual noise
 
-### 🎨 Supported Palettes
+## 🎨 Supported Palettes
 
 - Latte
 - Frappé
 - Macchiato
 - Mocha
 
-## 🪵 Usage
+# 🪵 Usage
 
 1. Fork this repository and clone it
-2. Optionally remove the `.github` directory as it contains only PR templates, issue labels, etc that are linked to this repository
+2. Optionally remove the `.github` directory, as it contains only PR templates, issue labels, etc., that are linked to this repository
 3. Update [`userconfig.js`](userconfig.js):
    - Set the desired palette: `latte / frappe / macchiato / mocha`
    - Set your location for the weather widget
-   - Update the number of pages and their banners
-   - Update bookmarks and quick links for the one you are using the most :3
+   - Update the number of tabs and their banners
+   - Update bookmarks and quick links for those you use most
 
 > [!TIP]
-> You can find icons for your bookmarks using [`tabler-icons`](https://tabler.io/icons)
+> You can find icons for your bookmarks using [`tabler-icons`](https://tabler.io/icons).
 >
-> If you want to reduce the loading time of the icons, you could install the icon [font](src/fonts) locally and activate the option `"localIcons": true` in the config to disable the remote styles
+> To reduce icon loading times, you may install the icon [font](src/fonts) locally and activate the option `"localIcons": true` in the configuration to disable remote styles.
 
-#### As Homepage
+### As Homepage
 
 - Click the menu button and select `Options/Preferences`
 - Click the home panel
-- Click the menu next to the homepage and new windows and choose to show custom URLs and add your GitHub Pages link
+- Click the menu next to 'Homepage and new windows', choose to show custom URLs, and add your GitHub Pages link
 
-#### As New Tab
+### As New Tab
 
-You can use different add-ons/extensions for it
+You can use different add-ons or extensions for this.
 
-- If you use Firefox-based browsers: [Custom New Tab Page](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-page/?src=search) and make sure you enable "Force links to open in the top frame (experimental)" in the extension's preferences page
+- If you use Firefox-based browsers: [Custom New Tab Page](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab-page/?src=search) and make sure to enable "Force links to open in the top frame (experimental)" in the extension's preferences page
 - If you use Chromium-based browsers (Brave / Chrome): [Custom New Tab URL](https://chrome.google.com/webstore/detail/custom-new-tab-url/mmjbdbjnoablegbkcklggeknkfcjkjia)
 
-### 🖼️ Available banners
+## 🔎 Search
 
-| cbg-01                                           | cbg-02                                           | cbg-03                                           | cbg-04                                           |
-| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| <img src="src/img/banners/cbg-01.gif" width=175> | <img src="src/img/banners/cbg-02.gif" width=175> | <img src="src/img/banners/cbg-03.gif" width=175> | <img src="src/img/banners/cbg-04.gif" width=175> |
+<p align="center">
+  <img src="assets/preview_search.png"/>
+</p>
 
-| cbg-05                                           | cbg-06                                           | cbg-07                                           | cbg-08                                           |
-| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| <img src="src/img/banners/cbg-05.gif" width=175> | <img src="src/img/banners/cbg-06.gif" width=175> | <img src="src/img/banners/cbg-07.gif" width=175> | <img src="src/img/banners/cbg-08.gif" width=175> |
+The search dialogue allows you to display a search bar with various search engines defined in the configuration. To select each one, simply prefix the query with the corresponding `!<id>`. By default, the defined search engines are:
 
-| cbg-09                                           | cbg-10                                           | cbg-11                                           | cbg-12                                           |
-| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| <img src="src/img/banners/cbg-09.gif" width=175> | <img src="src/img/banners/cbg-10.gif" width=175> | <img src="src/img/banners/cbg-11.gif" width=175> | <img src="src/img/banners/cbg-12.gif" width=175> |
+- `!g`: Google
+- `!d`: DuckDuckGo (default)
 
-| cbg-13                                           | cbg-14                                           | cbg-15                                           |
-| ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| <img src="src/img/banners/cbg-13.gif" width=175> | <img src="src/img/banners/cbg-14.gif" width=175> | <img src="src/img/banners/cbg-15.gif" width=175> |
+## 🖼️ Available Banners
+
+| banner_01                                           | banner_02                                           | banner_03                                           | banner_04                                           |
+| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| <img src="src/img/banners/banner_01.gif" width=175> | <img src="src/img/banners/banner_02.gif" width=175> | <img src="src/img/banners/banner_03.gif" width=175> | <img src="src/img/banners/banner_04.gif" width=175> |
+
+| banner_05                                           | banner_06                                           | banner_07                                           | banner_08                                           |
+| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| <img src="src/img/banners/banner_05.gif" width=175> | <img src="src/img/banners/banner_06.gif" width=175> | <img src="src/img/banners/banner_07.gif" width=175> | <img src="src/img/banners/banner_08.gif" width=175> |
+
+| banner_09                                           | banner_10                                           | banner_11                                           | banner_12                                           |
+| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| <img src="src/img/banners/banner_09.gif" width=175> | <img src="src/img/banners/banner_10.gif" width=175> | <img src="src/img/banners/banner_11.gif" width=175> | <img src="src/img/banners/banner_12.gif" width=175> |
+
+| banner_13                                           | banner_14                                           | banner_15                                           |
+| --------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------- |
+| <img src="src/img/banners/banner_13.gif" width=175> | <img src="src/img/banners/banner_14.gif" width=175> | <img src="src/img/banners/banner_15.gif" width=175> |

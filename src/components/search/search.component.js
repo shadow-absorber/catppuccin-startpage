@@ -43,28 +43,28 @@ class Search extends Component {
           border: 0;
           outline: 0;
           width: 100%;
-          box-shadow: inset 0 -2px #737373;
+          box-shadow: inset 0 -2px ${CONFIG.palette.crust};
           padding: .5em 0;
           background: none;
           font: 500 22px 'Roboto', sans-serif;
           letter-spacing: 1px;
-          color: #fff;
+          color: ${CONFIG.palette.lavender};
       }
 
       #search input:focus {
-          box-shadow: inset 0 -2px #fff;
+          box-shadow: inset 0 -2px ${CONFIG.palette.lavender};
       }
 
       #search input::selection {
-          background: #000;
-          color: #fff;
+          background: ${CONFIG.palette.overlay2};
+          color: ${CONFIG.palette.base};
       }
 
       #search .close {
           background: 0;
           border: 0;
           outline: 0;
-          color: #fff;
+          color: ${CONFIG.palette.lavender};
           position: absolute;
           right: 0;
           cursor: pointer;
@@ -77,7 +77,7 @@ class Search extends Component {
 
       .search-engines {
           list-style: none;
-          color: #7d7d7d;
+          color: rgb(91, 96, 120);
           display: flex;
           padding: 0;
           top: 50px;
@@ -97,7 +97,7 @@ class Search extends Component {
       }
 
       .search-engines li.active {
-          color: #fff;
+          color: ${CONFIG.palette.lavender};
           font-weight: 700;
       }
     `;
@@ -142,7 +142,7 @@ class Search extends Component {
 
     let args = target.value.split(' ');
     let prefix = args[0];
-    let defaultEngine = this.engines['g'][0];
+    let defaultEngine = this.engines['d'][0];
     let engine = defaultEngine;
 
     this.refs.engines.childNodes.forEach(engine => {

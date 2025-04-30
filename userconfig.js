@@ -1,6 +1,8 @@
 // latte / frappe / macchiato / mocha const palette = mocha;
+// User configuration for the startpage. Update the palette, location, and your preferred tabs, categories, and links.
+const palette = mocha;
 
-const default_config = {
+const default_configuration = {
   overrideStorage: true,
   temperature: {
     location: "Gothenburg",
@@ -8,7 +10,16 @@ const default_config = {
   },
   clock: {
     format: "h:i p",
-    iconColor: palette.maroon,
+    icon_color: palette.maroon,
+  },
+  search: {
+    engines: {
+      d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
+      g: ["https://google.com/search?q=", "Google"],
+    },
+  },
+  keybindings: {
+    "s": "search-bar",
   },
   search: {
     engines: {
@@ -245,7 +256,7 @@ const default_config = {
   ],
 };
 
-const CONFIG = new Config(default_config, palette);
+const CONFIG = new Config(default_configuration, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
