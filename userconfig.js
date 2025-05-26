@@ -1,6 +1,12 @@
 // latte / frappe / macchiato / mocha const palette = mocha;
 // User configuration for the startpage. Update the palette, location, and your preferred tabs, categories, and links.
-const palette = mocha;
+
+// Define preferred palette for light and dark mode
+// Available themes: latte, frappe, mocha, macchiato
+const preferredLightTheme = mocha;
+const preferredDarkTheme = mocha;
+
+let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 
 const default_configuration = {
   overrideStorage: true,
@@ -14,6 +20,7 @@ const default_configuration = {
   },
   search: {
     engines: {
+      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
